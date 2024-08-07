@@ -72,6 +72,7 @@ mpv ror.mp3 &>/dev/null &
 banner | lolcat
 sleep 2
 echo
+xdg-open "https://t.me/IDOOSINTBOT"
 read -p "MASUKKAN NIK : " NIK
 nik-parse -n $NIK
 echo
